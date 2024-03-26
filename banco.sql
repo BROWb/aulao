@@ -27,7 +27,7 @@ DROP TABLE IF EXISTS `cadastro`;
 CREATE TABLE `cadastro` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nome` varchar(30) NOT NULL,
-  `endereço` varchar(30) NOT NULL,
+  `endereco` varchar(30) NOT NULL,
   `telefone` varchar(20) NOT NULL,
   `data` date DEFAULT NULL,
   `email` varchar(50) NOT NULL,

@@ -19,7 +19,7 @@
 
 
     <label for="endereço" class="form-label">endereço</label>
-    <input type="text" class="form-control" name="endereço">
+    <input type="text" class="form-control" name="endereco">
 
 
     <label for="telefone" class="form-label">telefone</label>
@@ -31,8 +31,8 @@
     <input type="date" class="form-control" name="data">
 
 
-    <label for="Email" class="form-label">Email</label>
-    <input type="Email" class="form-control" name="Email">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" name="email">
 
 
     <label for="senha" class="form-label">senha</label>
