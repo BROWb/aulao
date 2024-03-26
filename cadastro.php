@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+            <h1>Cadastre-se</h1>
+            <form action="cad.php" method="post">
+                
+  <div class="mb-3">
+    <label for="nome" class="form-label">nome completo</label>
+    <input type="text" class="form-control" name="nome">
+
+
+    <label for="endereço" class="form-label">endereço</label>
+    <input type="text" class="form-control" name="endereço">
+
+
+    <label for="telefone" class="form-label">telefone</label>
+    <input type="text" class="form-control" name="telefone">
+
+
+    
+    <label for="data" class="form-label">data de nascimento</label>
+    <input type="date" class="form-control" name="data">
+
+
+    <label for="Email" class="form-label">Email</label>
+    <input type="Email" class="form-control" name="Email">
+
+
+    <label for="senha" class="form-label">senha</label>
+    <input type="password" class="form-control" name="senha">
+
+    <input type="submit" class=" btn btn-success">
+  </div>
+  </form>
+      <a href="index.php" class="btn btn-info">voltar tela de inicio</a>
+ 
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
